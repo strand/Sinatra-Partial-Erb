@@ -3,7 +3,7 @@
 require 'sinatra/base'
 
 module Sinatra
-  module Partial
+  module Partial_erb
     
     def partial(template, *args)
         template_array = template.to_s.split('/')
@@ -22,7 +22,7 @@ module Sinatra
       end
     end
 
-  helpers Partial
+  helpers Partial_erb
 end
 
 
