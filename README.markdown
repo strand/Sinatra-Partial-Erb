@@ -1,6 +1,6 @@
-## Sinatra Partial ##
+## Sinatra Partial erb ##
 
-Partials for Sinatra!
+Partials for Sinatra! **This is a fork of the [haml version](http://rubygems.org/gems/sinatra-partial), I am working on making it work for erb.**
 
 ### Quick note ###
 

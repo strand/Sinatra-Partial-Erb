@@ -3,14 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "sinatra/partial/version"
 
 Gem::Specification.new do |s|
-  s.name        = "sinatra-partial"
+  s.name        = "sinatra-partial-erb"
   s.version     = Sinatra::Partial::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Chris Schneider", "Sam Elliott", "Iain Barnett"]
-  s.email       = ["iainspeed@gmail.com"]
-  s.homepage    = "https://github.com/yb66/Sinatra-Partial"
-  s.summary     = %q{Rack middleware for Geo IP city lookup}
-  s.description = %q{Just the partials helper in a gem. That is all.}
+  s.authors     = ["Chris Schneider", "Sam Elliott", "Iain Barnett", "B Strand"]
+  s.email       = ["strand@bettermistak.es"]
+  s.homepage    = "https://github.com/strand/Sinatra-Partial-Erb"
+  s.summary     = %q{Makes the magic happen.}
+  s.description = %q{Just the partials helper for erb in a gem. That is all.}
   s.license     = 'MIT'
 
   s.add_dependency 'sinatra'
